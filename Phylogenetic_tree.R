@@ -1,7 +1,4 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-# Project: Contraception
-# Version: 01
-# Author: Johanna Staerk
 # Description: Phylogenetic tree
 # Adaptation: Catalina Manduta 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -204,7 +201,7 @@ d2 <- data.frame(id=tree_subset$tip.label, location = d1$surgical_male)
 p2 <- p2 %<+% d2 + geom_tippoint(aes(color=location))
 
 
-# Add the images from he pylopic website
+# Add the images from the pylopic website
 phylopic_info <- data.frame(node = c(229,180,150,257,142,125,226,262,10,124),
                             phylopic = c("a1116e25-7b50-4666-bef5-de18b6e2778c",
                                          "a0afbb0a-2bb8-4d69-999d-3ed3a09e9966",
